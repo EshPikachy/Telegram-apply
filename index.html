@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/burger.css" />
+    <link rel="stylesheet" href="./css/modal.css" />
+    <link rel="stylesheet" href="./css/dropdown.css" />
+    <!-- <link rel="stylesheet" href="./css/media.css" /> -->
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <div class="header__nav">
+          <img
+            src="https://1000logos.net/wp-content/uploads/2017/02/Instagram-Logo-2010-2011.png"
+            alt=""
+          />
+          <ul class="nav">
+            <li class="nav__item"><a href="#goods">Goods</a></li>
+            <li class="nav__item"><a href="#address">Address</a></li>
+            <li class="nav__item"><a href="#contacts">Contacts</a></li>
+            <li class="nav__item"><a href="#login">Login</a></li>
+            <li class="nav__item"><a href="#shop">Shop</a></li>
+          </ul>
+          <div class="mobile-btn">
+            <span></span>
+          </div>
+        </div>
+      </div>
+      <div class="backdrop"></div>
+    </header>
+
+    <section id="main">   
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+
+        <div class="main__wrap">
+          <h1>We provide best nails</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+            Nisi et, esse voluptates officiis inventore nobis.
+          </p>
+          <button class="show_modal">Apply</button>
+        </div>
+
+    
+      
+      
+    </section>
+    <form>
+      <div class="modalBackdrop">
+        <div class="modal">
+          <div class="modalHeader">
+            <h2>title</h2>
+            <p class="modalCloseButton">X</p>
+          </div>
+          <div class="modalContent">
+
+              <input type="text" id="firstinput" />
+              <input type="text" id="secondinput" />
+              <button type="submit" class="modalApplyButton">APPLY</button>
+
+          </div>
+          <div class="message"></div>
+        </div>
+      </div>
+    </form>
+
+    <section id="secondary">
+      <div class="container secondary__container">
+        <div class="row secondary__row">
+          <div class="col-4">
+            <div class="box">
+              <div class="dropdown first">
+              <button class="maindrop_btn_first" href="">
+                Нажми на меня ↓
+              </button>
+              <ul class="dropdownul__first">
+                <li>Text Here</li>
+                <li>Text Here</li>
+                <li>Text Here</li>
+                <li>Text Here</li>
+                <li>Text Here</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+            
+          <div class="col-4">
+            <div class="box">
+              <div class="dropdown second">
+                <button class="maindrop_btn_second" href="">
+                  Нажми на меня ↓
+                </button>
+                <ul class="ulclass_second">
+                  <li>Text Here</li>
+                  <li>Text Here</li>
+                  <li>Text Here</li>
+                  <li>Text Here</li>
+                  <li>Text Here</li>
+                </ul>
+              </div>
+            </div>
+            </div>
+            
+          <div class="col-4">
+            <div class="box">
+              <div class="dropdown third">
+              <button class="maindrop_btn_third" href="">
+                Нажми на меня ↓
+              </button>
+              <ul class="dropdownul__third">
+                <li>Text Here</li>
+                <li>Text Here</li>
+                <li>Text Here</li>
+                <li>Text Here</li>
+                <li>Text Here</li>
+              </ul>
+            </div>
+          </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="accordionSection">
+      <div class="container">
+          <div class="accordion">
+              <div class="row output">
+
+              </div>
+ 
+
+          </div>
+      </div>
+  </section>
+   
+    <!-- <section id="goods">
+        <div class="container">
+            <h2>Goods</h2>
+        </div>
+    </section>
+
+    <section id="address">
+        <div class="container">
+            <h2>address</h2>
+        </div>
+    </section>
+
+    <section id="contacts">
+        <div class="container">
+            <h2>contacts</h2>
+        </div>
+    </section> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/burger.js"></script>
+    <script src="./js/modal.js"></script>
+    <script src="./js/dropdown.js"></script>
+  </body>
+</html>

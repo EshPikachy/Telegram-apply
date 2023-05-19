@@ -1,0 +1,224 @@
+/* basic */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 30px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.col-4 {
+  width: 33.3333%;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* basic */
+
+/* section {
+    padding: 200px 0;
+    height: 1000px;
+} */
+
+/* header */
+header {
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  background-color: cornflowerblue;
+  z-index: 1000;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__nav img {
+  width: 100px;
+}
+
+.nav {
+  display: flex;
+  column-gap: 30px;
+  font-size: 20px;
+}
+
+.header__nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+/* header */
+
+/* main */
+#main {
+  /* background-image: url("https://gamerwall.pro/uploads/posts/2021-11/1637896192_2-gamerwall-pro-p-oboi-na-rabochii-stol-art-priroda-oboi-na-2.jpg"); */
+  height: 100vh;
+  background-size: cover;
+  color: white;
+}
+
+.mySwiper {
+  height: 100vh;
+  position: relative;
+}
+.mySwiper .swiper-slide {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* .main__container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+} */
+
+.main__wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+}
+
+.main__wrap p {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.main__wrap button {
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+
+.main__wrap button:hover {
+  opacity: 1;
+}
+
+/* main */
+
+.dropdown {
+  padding-top: 100px;
+  width: 270px;
+}
+
+.dropdown button {
+  font-size: 30px;
+  border: 5px solid black;
+  padding: 10px 10px;
+  border-radius: 13px;
+}
+
+#secondary {
+  height: 100vh;
+  background-image: url('https://gamerwall.pro/uploads/posts/2021-11/1637896192_2-gamerwall-pro-p-oboi-na-rabochii-stol-art-priroda-oboi-na-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.box {
+  width: 100%;
+}
+
+.box ul {
+  width: 100%;
+  font-size: 40px;
+  border: 5px solid black;
+  border-radius: 10px;
+  font-weight: bold;
+}
+#accordionSection {
+  background-color: lightblue;
+  padding: 100px 0;
+  color: #fff;
+  height: 150vh;
+}
+
+/* .accordion__wrap {} */
+
+.accordion__name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(57, 61, 71, 0.7);
+  /* box-shadow: rgb(0 0 0 / 20%) 0px 2px 1px -1px, rgb(0 0 0 / 14%) 0px 1px 1px 0px, rgb(0 0 0 / 12%) 0px 1px 3px 0px; */
+  padding: 20px;
+
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 15px;
+}
+
+.col-6{
+  width: 50%;
+  padding: 0 15px;
+}
+
+.plus {
+  width: 30px;
+  height: 30px;
+  transition: 0.5s ease;
+}
+
+.accordion__content {
+  padding: 10px 20px;
+  overflow: hidden;
+  max-height: 0;
+  transition: 0.5s ease;
+}
+
+.accordion__content p {
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.accordion__wrap.accordion__active .accordion__content {
+  max-height: 500px;
+  transition: 0.5s ease;
+}
+
+.accordion__wrap.accordion__active .plus {
+  rotate: 90deg;
+  transition: 0.5s ease;
+}

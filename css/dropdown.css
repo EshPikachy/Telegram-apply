@@ -1,0 +1,22 @@
+.dropdownul__first {
+  background-color: rgb(2, 224, 2);
+  display: none;
+  transition: 0.8s;
+}
+.ulclass_second {
+  background-color: yellow;
+  display: none;
+  transition: 0.8s;
+}
+.dropdownul__third {
+  background-color: red;
+  display: none;
+  transition: 0.8s;
+  width: 100%;
+}
+.dropdownulActive {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+}
